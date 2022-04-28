@@ -3,7 +3,9 @@ package ru.kpfu.itis;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.core.annotation.Order;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
